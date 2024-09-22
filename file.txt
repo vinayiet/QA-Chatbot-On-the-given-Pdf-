@@ -1,0 +1,23 @@
+qa_chatbot/
+│
+├── app/
+│   ├── __init__.py           # To make 'app' a Python module
+│   ├── chatbot.py            # Main chatbot logic (QA functionality)
+│   ├── document_retrieval.py # Functions to retrieve documents
+│   └── answer_generation.py  # Functions to generate answers using LLMs like Cohere
+│
+├── data/
+│   └── documents/            # Folder for storing documents (e.g., PDFs, text files)
+│
+├── config/
+│   └── config.py             # Configuration settings (API keys, settings for models, etc.)
+│
+├── scripts/
+│   └── setup_db.py           # Script to set up the document database, if applicable
+│
+├── tests/
+│   └── test_chatbot.py       # Unit tests for chatbot functions
+│
+├── requirements.txt          # List of Python dependencies (e.g., Cohere, Pinecone, etc.)
+├── README.md                 # Project documentation
+└── main.py                   # Entry point for running the chatbot
